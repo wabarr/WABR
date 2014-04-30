@@ -3,7 +3,7 @@
 #' This function isn't real
 #' @param spoon_or_not whether or not there is a spoon. Default is FALSE
 #' @keywords spoons
-#’ @export
+#' @export
 #' fake()
 
 
