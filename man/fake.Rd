@@ -11,6 +11,8 @@ fake(spoon = FALSE)
 \description{
 This function isn't real
 }
-\keyword{fake()}
+\examples{
+fake()
+}
 \keyword{spoons}
 
