@@ -1,8 +1,8 @@
 Package: WABR
-Title: 
-Description: 
+Title: WABR
+Description: Personal Functions for WAB
 Version: 0.1
-Authors@R: # getOptions('devtools.desc.author')
+Authors@R: Andrew Barr
 Depends:
     R (>= 3.0.2)
 License: # getOptions('devtools.desc.license')
