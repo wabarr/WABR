@@ -5,7 +5,8 @@
 loadR(package, mirror = "http://cran.rstudio.com")
 }
 \arguments{
-  \item{package}{name of package as a character string}
+  \item{package}{name of package (don't use quotation
+  marks)}
 
   \item{mirror}{Default is Rstudio cloud mirror}
 }
