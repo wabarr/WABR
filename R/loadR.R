@@ -1,11 +1,12 @@
 #' function to load package, or download packge if not currently installed
 #'
 #' This function loads a package with library() if installed, or downloads it from the Rstudio mirror if not
-#' @param mirror Default is Rstudio clout mirror
+#' @param package name of package as a character string
+#' @param mirror Default is Rstudio cloud mirror
 #' @keywords library require install package
 #' @export
 #' @examples
-#' loadR()
+#' loadR("devtools")
 
 loadR <- function(package, mirror = "http://cran.rstudio.com") {
   stopifnot(is.character(package))
